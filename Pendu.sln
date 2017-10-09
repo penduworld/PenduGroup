@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pendu", "Pendu\Pendu.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pendu.Tests", "Pendu.Tests\Pendu.Tests.csproj", "{C2E0C3D1-8C85-4E34-83A5-63DA62D78075}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E2449652-D0FD-4A3E-A6AB-C8299E7EF768}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{9BDD5E1D-FE9B-4DC8-ACCD-2D41E43482C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Layer", "Service Layer", "{D4CC7826-1E08-4455-90AD-8F36F379EE8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A34D4BBA-2B15-47F1-A515-00EE97EA20A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{4C3B2513-35F4-4903-A3AD-E2FE0489A1D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +34,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC42E9FB-22F2-4530-8650-5F1305B7649B} = {4C3B2513-35F4-4903-A3AD-E2FE0489A1D5}
+		{C2E0C3D1-8C85-4E34-83A5-63DA62D78075} = {A34D4BBA-2B15-47F1-A515-00EE97EA20A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34FA26E5-596E-4882-983C-EB3274875BF1}
